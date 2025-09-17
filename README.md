@@ -2,13 +2,13 @@
 
 ### Purpose
 
-- Generates a new Core Java app using template archetype
-- JUnit 5, Hamcrest & Mockito are set as test dependencies
-- Shade & Spotbugs are pre-configured as part of the build
+- Generates java demo app using the provided template
+- JUnit, Hamcrest, Mockito are set as test dependencies
+- Shade packaging is pre-configured as part of the build
 
 ### Usage
 
-- Requires Maven 3.8.x & JDK 17.x installed on your system
+- Requires Maven 3.9.x & JDK 21.x installed on your system
 
 ```
 ❯ ./generate.sh <name>

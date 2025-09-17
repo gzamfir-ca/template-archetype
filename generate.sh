@@ -11,7 +11,7 @@ mvn install && cd ../ && mvn archetype:generate -B \
     -DarchetypeGroupId=com.me.template \
     -DarchetypeArtifactId=template-archetype \
     -DarchetypeVersion=1.0 \
-    -DgroupId="${1}" \
+    -DgroupId=com.me.demo \
     -DartifactId="${1}" \
     -Dversion=1.0 \
     -Dinteractive=false
