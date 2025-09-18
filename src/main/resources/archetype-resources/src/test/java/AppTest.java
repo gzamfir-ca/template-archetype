@@ -20,6 +20,6 @@ public class AppTest {
     @SuppressWarnings("unchecked")
     LinkedList<String> mockedList = mock(LinkedList.class);
     when(mockedList.getFirst()).thenReturn("Template App");
-    assertThat(App.msg, equalTo(mockedList.get(0)));
+    assertThat(App.msg, equalTo(mockedList.getFirst()));
   }
 }
