@@ -15,4 +15,4 @@
 ❯ cd ../<name>
 ```
 
-_where `<name>` denotes both project and package name_
+_where `<name>` denotes project name_
